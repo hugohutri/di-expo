@@ -11,12 +11,10 @@ const translations = {
 const i18n = new I18n(translations);
 
 // Set the locale once at the beginning of your app.
-i18n.locale = "en"; //Localization.locale;
+i18n.locale = Localization.locale;
 
 // When a value is missing from a language it'll fallback to another language with the key present.
 i18n.enableFallback = true;
-// To see the fallback mechanism uncomment line below to force app to use Japanese language.
-// i18n.locale = 'ja';
 
 export default function Translated() {
   return (
@@ -32,6 +30,10 @@ export default function Translated() {
 
 const styles = StyleSheet.create({
   container: {
+    borderColor: "white",
+    borderWidth: 2,
+    padding: 10,
+    margin: 10,
     backgroundColor: "#49a",
     alignItems: "center",
     justifyContent: "center",
