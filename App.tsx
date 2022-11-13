@@ -3,6 +3,7 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import Translated from "./src/Translated";
 import DeviceInfo from "./src/DeviceInfo";
+import NetworkInfo from "./src/NetworkInfo";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Text>Open up App.js to start working on your app!</Text>
       <Translated />
       <DeviceInfo />
+      <NetworkInfo />
       <StatusBar style="auto" />
     </View>
   );
