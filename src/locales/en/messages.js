@@ -1,0 +1,1 @@
+/*eslint-disable*/module.exports={messages:{"Toggle locale":"Toggle locale","Welcome":"Welcome"}};

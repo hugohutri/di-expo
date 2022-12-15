@@ -1,0 +1,1 @@
+/*eslint-disable*/module.exports={messages:{"Toggle locale":"Vaihda kieltä","Welcome":"Tervetuloa"}};
