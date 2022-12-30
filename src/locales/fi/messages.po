@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#: src/Translated.tsx:14
+#: src/Translated.tsx:14                    
 msgid "Toggle locale"
 msgstr "Vaihda kieltä"
 

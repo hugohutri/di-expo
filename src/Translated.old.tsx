@@ -17,6 +17,8 @@ i18n.locale = Localization.locale;
 // fallback to another language with the key present.
 i18n.enableFallback = true;
 
+let example = `${i18n.t("welcome")} ${i18n.t("name")}!`;
+
 export default function Translated() {
   return (
     <View style={styles.container}>
